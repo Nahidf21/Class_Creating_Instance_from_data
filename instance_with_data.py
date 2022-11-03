@@ -16,15 +16,15 @@ class City:
 
 citys=[]
 
-for cit in city_tuples:
-     name, pop, state = cit
-     city=City(name, pop, state)
-     citys.append(city)
-     print(city)
+#for cit in city_tuples:
+    # name, pop, state = cit
+    # city=City(name, pop, state)
+     #citys.append(city)
+     #print(city)
 #print(citys)
-#trythis= [City(*t) for t in city_tuples]
+trythis= [City(*t) for t in city_tuples]
 #citys.append(trythis)
-#print(trythis)
+print(trythis)
 #print(citys)
 
 
